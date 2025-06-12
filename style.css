@@ -325,8 +325,7 @@ body, html {
 .links {
   display: flex;
   gap: 1rem;
-  padding: 1rem 10%;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
 }
 
