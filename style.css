@@ -42,12 +42,12 @@ body, html {
     width:100%;
     overflow:hidden;
    }
-   .bannerimage {
-    width: 100%;
+   .Bannerimage {
+    width: auto;
     height: auto;
     display: block;
     object-fit: cover;
-
+    overflow: hidden;
    }
 
    .header {
