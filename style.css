@@ -326,7 +326,7 @@ body, html {
   display: flex;
   gap: 1rem;
   padding: 1rem 10%;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-items: center;
 }
 
