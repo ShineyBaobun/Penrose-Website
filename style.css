@@ -325,8 +325,11 @@ body, html {
 .links {
   display: flex;
   gap: 1rem;
+  padding: 1rem 0; 
   flex-wrap: nowrap;
   align-items: center;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .links a {
