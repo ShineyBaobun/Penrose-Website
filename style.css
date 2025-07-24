@@ -346,3 +346,11 @@ body, html {
   color: #cb2279;
   text-decoration: underline;
 }
+
+a:link {
+  color: #ff4bcc;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color:#cb2279;
+}
