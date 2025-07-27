@@ -322,6 +322,13 @@ body, html {
   margin: 0;
 }
 
+@media screen and (max-width:1400px) {
+  .small {
+    display: none;
+  }
+}
+
+
 .links {
   display: flex;
   gap: 1rem;
@@ -349,8 +356,13 @@ body, html {
 
 a:link {
   color: #ff4bcc;
+  text-decoration: none;
 }
 
-a:link, a:visited, a:hover, a:active {
-  color:#cb2279;
+a:link, a:visited, a:active {
+  color: #ff4bcc;
+}
+
+a:link, a:hover {
+  color:#b10e62;
 }
