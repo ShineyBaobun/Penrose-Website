@@ -1,0 +1,183 @@
+[
+    {
+        "title": "The Effects of Time Dilation on GPS",
+        "author": "Max Yu",
+        "Issue": "1",
+        "Image": "assets/MaxYu1.jpeg",
+        "synopsis": "tbd",
+        "pdf": "assets/Issue1.pdf",
+        "slug": "time-dilation-gps"
+    },
+
+    {
+        "title": "ImageNet: The Data Behind AI",
+        "author": "Eleanore Shiner",
+        "Issue": "1",
+        "Image": "assets/EleanoreShiner1.jpeg",
+        "synopsis": "tbd",
+        "pdf": "assets/Issue1.pdf",
+        "slug": "imagenet-data-ai"
+    },
+
+    {
+        "title": "The Nature of Dark Matter",
+        "author": "Maria Zenchenko",
+        "Issue": "1",
+        "Image": "assets/MariaZenchenko1.jpeg",
+        "synopsis": "tbd",
+        "pdf": "assets/Issue1.pdf",
+        "slug": "nature-dark-matter"
+    },
+
+    {
+        "title": "Robot Surgeons: How Soft Robotics Is Used In Minimally Invasive Surgery",
+        "author": "Sreya Janardhan",
+        "Issue": "1",
+        "Image": "assets/SreyaJanardhan1.jpeg",
+        "synopsis": "tbd",
+        "pdf": "assets/Issue1.pdf",
+        "slug": "robot-surgeons-minimally-invasive-surgery"
+    },
+
+    {
+        "title": "Evolution of Electric Telegraphy",
+        "author": "Sara Bjelanovic",
+        "Issue": "1",
+        "Image": "assets/SaraBjelanovic1.jpeg",
+        "synopsis": "tbd",
+        "pdf": "assets/Issue1.pdf",
+        "slug": "evolution-electric-telegraphy"
+    },
+
+    {
+        "title": "The Evolution of Pre-Electric Vehicles",
+        "author": "Zane Edwards",
+        "Issue": "1",
+        "Image": "assets/ZaneEdwards1.jpeg",
+        "synopsis": "tbd",
+        "pdf": "assets/Issue1.pdf",
+        "slug": "evolution-preelectric-vehicles"
+    },
+
+    {
+        "title": "What Hedy Lamarr Means to Science",
+        "author": "Rosalia Bialek",
+        "Issue": "2",
+        "Image": "assets/RosaliaBialek2.jpeg",
+        "synopsis": "tbd",
+        "pdf": "assets/Issue2.pdf",
+        "slug": "hedy-lamarr-science"
+    },
+
+    {
+        "title": "Spanning Tree Protocol: the Groundwork of Networking",
+        "author": "Eleanore Shiner",
+        "Issue": "2",
+        "Image": "assets/EleanoreShiner2.jpeg",
+        "synopsis": "tbd",
+        "pdf": "assets/Issue2.pdf",
+        "slug": "spanning-tree-protocol"
+    },
+
+    {
+        "title": "How Game Engines Work",
+        "author": "Denys Zazuliak",
+        "Issue": "2",
+        "Image": "assets/DenysZazuliak2.jpeg",
+        "synopsis": "tbd",
+        "pdf": "assets/Issue2.pdf",
+        "slug": "game-engines"
+    },
+
+    {
+        "title": "The Effect Of Supernovae On Our Understanding Of The Universe",
+        "author": "Charlotte Reynaert",
+        "Issue": "2",
+        "Image": "assets/CharlotteReynaert2.jpeg",
+        "synopsis": "tbd",
+        "pdf": "assets/Issue2.pdf",
+        "slug": "effects-supernovae-universe"
+    },
+
+    {
+        "title": "Siriusly Fast: A 5-minute Round Trip With Lorentz Fitzgerald",
+        "author": "Raiana Nurlan",
+        "Issue": "2",
+        "Image": "assets/RaianaNurlan2.jpeg",
+        "synopsis": "tbd",
+        "pdf": "assets/Issue2.pdf",
+        "slug": "siriusly-fast-lorentz-fitzgerald"
+    },
+
+    {
+        "title": "The Reality of Flashbangs in Gaming",
+        "author": "Mandisa Jili",
+        "Issue": "3",
+        "Image": "assets/MandisaJili3.jpeg",
+        "synopsis": "tbd",
+        "pdf": "assets/Issue3.pdf",
+        "slug": "reality-flashbang-gaming"
+    },
+
+    {
+        "title": "Pioneering Virtual Reality Technology: The Virtual Director and CAVE",
+        "author": "Eleanore Shiner",
+        "Issue": "3",
+        "Image": "assets/EleanoreShiner3.jpeg",
+        "synopsis": "tbd",
+        "pdf": "assets/Issue3.pdf",
+        "slug": "pioneering-vr-virtual-director-cave"
+    },
+
+    {
+        "title": "AI in Animation",
+        "author": "Axl Funk",
+        "Issue": "3",
+        "Image": "assets/AxlFunk3.jpeg",
+        "synopsis": "tbd",
+        "pdf": "assets/Issue3.pdf",
+        "slug": "ai-animation"
+    },
+
+    {
+        "title": "Navigating Ethics in AI-Powered STEM Education",
+        "author": "Swara Kakaraparthy",
+        "Issue": "3",
+        "Image": "assets/SwaraKakaraparthy3.jpeg",
+        "synopsis": "tbd",
+        "pdf": "assets/Issue3.pdf",
+        "slug": "ethics-ai-stem-education"
+    },
+
+    {
+        "title": "Solving the Protein Folding Problem",
+        "author": "Rosalia Bialek",
+        "Issue": "3",
+        "Image": "assets/RosaliaBialek3.jpeg",
+        "synopsis": "tbd",
+        "pdf": "assets/Issue3.pdf",
+        "slug": "solving-protein-folding-problem"
+    },
+
+    {
+        "title": "How Movies Are Really Captured: The Photoelectric Effect",
+        "author": "Alexa Shaw-Toole",
+        "Issue": "3",
+        "Image": "assets/AlexaShaw-Toole3.jpeg",
+        "synopsis": "tbd",
+        "pdf": "assets/Issue3.pdf",
+        "slug": "movies-captured-photoelectric-effect"
+    },
+
+    {
+        "title": "How Close We Are To Cyberpunk 2077 Cyberware",
+        "author": "Denys Zazuliak",
+        "Issue": "3",
+        "Image": "assets/DenysZazuliak3.jpeg",
+        "synopsis": "tbd",
+        "pdf": "assets/Issue3.pdf",
+        "slug": "close-cyberpunk-2077-cyberware"
+    }
+
+
+]
