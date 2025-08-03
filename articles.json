@@ -179,5 +179,24 @@
         "slug": "close-cyberpunk-2077-cyberware"
     }
 
+    {
+        "title": "How Water Simulations Work",
+        "author": "Ethan Benavides",
+        "Issue": "3",
+        "Image": "assets/EthanBenavides3.jpeg",
+        "synopsis": "tbd",
+        "pdf": "assets/Issue3.pdf",
+        "slug": "water-sims"
+    }
+
+    {
+        "title": "Would Time Travel Break The Universe?",
+        "author": "Gray O'Donnell",
+        "Issue": "3",
+        "Image": "assets/EthanBenavides3.jpeg",
+        "synopsis": "tbd",
+        "pdf": "assets/Issue3.pdf",
+        "slug": "time-travel-break-universe"
+    }
 
 ]
