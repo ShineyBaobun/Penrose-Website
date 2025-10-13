@@ -227,11 +227,10 @@ body, html {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-top: 2%;
     padding-bottom: 2%;
-    gap: 2rem;
   }
 
 .verticalcontentcontainer {
@@ -240,9 +239,9 @@ body, html {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 300px;
-    align-items: flex-start;
-    gap: 2rem;
+    max-width: 400px;
+    align-items: center;
+    gap: 2 rem;
   }
   
 
@@ -258,7 +257,6 @@ body, html {
     height: auto;
     object-fit: cover;
     display: block;
-    margin: 10%;
   }
 
   .form-container {
