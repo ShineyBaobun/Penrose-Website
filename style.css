@@ -243,6 +243,10 @@ body, html {
     align-items: center;
     gap: 2 rem;
   }
+
+.verticalcontentcontainer:hover {
+  box-shadow: ;
+}
   
 
   .writetext {
