@@ -27,7 +27,8 @@ body, html {
    }
 
    h2 {
-    color: rgb(12, 12, 12)
+    color: rgb(12, 12, 12);
+    justify-content: center;
    }
    
    .me {
@@ -225,12 +226,13 @@ body, html {
     text-decoration: none;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
     padding-top: 2%;
     padding-bottom: 2%;
+    gap: 2rem;
   }
 
 .verticalcontentcontainer {
@@ -239,13 +241,29 @@ body, html {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 400px;
+    max-width: 250px;
     align-items: center;
-    gap: 2 rem;
+    background-color: #fff1fa;
+    border: 1.5px solid #ffd1ed;
+    border-radius: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    transition: box-shadow 0.3s ease;
   }
 
 .verticalcontentcontainer:hover {
-  box-shadow: ;
+  box-shadow: 0 4px 10px rgba(160,160,160,0.8);
+}
+
+.centertext{
+  text-align: center;
+}
+
+.pinktitle{
+  color:#ff4190;
+  text-align: left;
 }
   
 
@@ -257,7 +275,7 @@ body, html {
   
   .UpcommingPhoto {
     width: 100%;
-    max-width: 300px;
+    max-width: 200px;
     height: auto;
     object-fit: cover;
     display: block;
