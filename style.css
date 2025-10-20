@@ -262,6 +262,13 @@ body, html {
   }
 }
 
+.contentcontainer iframe{
+  width: 100%;
+  max-width: 600px;
+  height: 1500px;
+  box-sizing: border-box;
+}
+
 .verticalcontentcontainer {
     display: flex;
     text-decoration: none;
@@ -286,7 +293,8 @@ body, html {
 
 .widthboxes {
   justify-content: center;
-  max-width: 2000px;
+  width: 100%;
+  max-width: 100%;
   background-color: white;
   border: 1.5px solid #ffd1ed;
   border-radius: 10px;
