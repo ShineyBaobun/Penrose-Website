@@ -108,6 +108,13 @@ body, html {
     height: auto;
     vertical-align: middle;
   }
+
+  .companyPhoto {
+    display: block;
+    width: 300px;
+    height: 125px;
+    margin: 0 auto;
+  }
   
   .overlay {
     position: absolute;
