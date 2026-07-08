@@ -28,7 +28,7 @@ body, html {
 
    h2 {
     color: rgb(12, 12, 12);
-    justify-content: center;
+    font-weight: 400;
    }
    
    .me {
