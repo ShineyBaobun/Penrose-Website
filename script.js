@@ -9,40 +9,44 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     }
   
-    const form = document.getElementById('InterestForm');
-    const submitButton = form?.querySelector('button[type="submit"]');
-    let hasSubmitted = false;
-
-    if (form) {
-      form.addEventListener('submit', function(e) {
-        e.preventDefault();
-
-        if (hasSubmitted) {
-          return; // prevent duplicate submission
-        }
-
-        hasSubmitted = true;
-        if (submitButton) {
-          submitButton.disabled = true;
-          submitButton.textContent = "Submitting..."; // optional visual feedback
-        }
-  
-        const formData = new FormData(form);
-  
-        fetch("https://script.google.com/macros/s/AKfycbzJRw109-rMsHpwORf_AtkG-fluqjZHbzwuf8v59R38hJZKiAJ_IcAf-7C9Cacjp0M/exec", {
-          method: "POST",
-          body: formData
-        })
-        .then(response => response.text())
-        .then(data => {
-          alert("Form submitted successfully!");
-          form.reset();
-          console.log("Server response:", data);
-        })
-        .catch(error => {
-          alert("Error submitting form.");
-          console.error("Error:", error);
-        });
-      });
-    }
   });
+
+
+
+  let slideIndex = 1;
+
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      const slides = document.getElementsByClassName("mySlides");
+      const dots = document.getElementsByClassName("dot");
+
+      if (slides.length === 0) return;
+
+      if (n > slides.length) {
+        slideIndex = 1;
+      }
+
+      if (n < 1) {
+        slideIndex = slides.length;
+      }
+
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+
+      for (let i = 0; i < dots.length; i++) {
+        dots[i].classList.remove("active");
+      }
+
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].classList.add("active");
+    }

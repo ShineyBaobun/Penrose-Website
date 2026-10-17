@@ -507,7 +507,7 @@ body, html {
 .links a {
   flex-grow: 1;
   text-align: center;
-  color: #ff4bcc;
+  color: #ff28a6;
   text-decoration: none;
   font-weight: bold;
   padding: 0.5rem 0; 
@@ -520,9 +520,95 @@ a:link {
 }
 
 a:link, a:visited, a:active {
-  color: #ff3aa3;
+  color: #ff28a6;
 }
 
 a:link, a:hover {
   color:#a70845;
+}
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
+
+.mySlides {
+  display: none;
+}
+
+.mySlides img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 16px;
+  color: #ff28a6;
+  font-weight: bold;
+  font-size: 100px;
+  transition: background-color 0.3s ease;
+  user-select: none;
+  text-decoration: none;
+}
+
+.prev {
+  left: 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 4px 0 0 4px;
+}
+
+.dots-container {
+  text-align: center;
+  margin-top: 12px;
+}
+
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 4px;
+  background-color: #ccc;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.dot.active, .dot:hover {
+  background-color: #777;
+}
+
+.fade {
+  animation: fadeEffect 0.6s ease;
+}
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .mySlides img {
+    height: 280px;
+  }
+
+  .prev, .next {
+    padding: 10px;
+    font-size: 16px;
+  }
 }
