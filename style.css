@@ -21,8 +21,8 @@ body, html {
      color: rgb(12, 12, 12);
    }
    .content{
-    margin-left: 10% ;
-    margin-right: 10%;
+    margin-left: 2% ;
+    margin-right: 2%;
     text-align: justify;
    }
 
@@ -144,7 +144,7 @@ body, html {
      right: -300px;
      width: 300px;
      height: 100vh;
-     background-color: hsl(342, 100%, 81%);
+     background-color: #ff80c1;
      transition: right 0.3s ease-in-out;
      z-index: 999;
    }
@@ -233,7 +233,7 @@ body, html {
    }
    
    .side-bar nav ul li a:hover {
-     color: #ff56c1;
+     color: #ff80c1;
    }
    
   .home-images{
@@ -291,7 +291,7 @@ body, html {
     justify-content: flex-start;
     max-width: 250px;
     align-items: center;
-    background-color: #fff1fa;
+    background-color: #ffe5f6;
     border: 1.5px solid #ffd1ed;
     border-radius: 10px;
     padding-top: 1%;
@@ -310,7 +310,7 @@ body, html {
   width: 100%;
   max-width: 100%;
   background-color: white;
-  border: 2px solid #febfe6;
+  border: 2px solid #ffd1ed;
   border-radius: 10px;
   padding-top: 1%;
   padding-bottom: 1%;
@@ -331,7 +331,7 @@ body, html {
   min-height: 150px;
   align-items: left;
   background-color: #ffffff;
-  border: 3px solid #ffe2f3;
+  border: 3px solid #ffe5f6;
   border-radius: 10px;
   padding-top: 1%;
   padding-bottom: 1%;
@@ -343,7 +343,7 @@ body, html {
 }
 
 .classybuttons:hover{
-  border:3px solid #ff6ba8;
+  border:3px solid #ff80c1;
   box-shadow: 0 4px 10px rgba(160,160,160,0.8);
 }
 
@@ -439,7 +439,7 @@ body, html {
   }
   
   button {
-    background-color: #ffacde;
+    background-color: #ffe5f6;
     color: white;
     padding: 15px 20px;
     border: none;
@@ -451,17 +451,17 @@ body, html {
   }
   
   button:hover {
-    background-color: #ff4bcc;
+    background-color: #ff80c1;
   }
 
   .writebutton {
     display: inline-block;
     padding: 15px 30px;
-    background-color: #ffe8f3;
-    color: rgb(255, 47, 123);
+    background-color: #ffe5f6;
+    color: #ff4190;
     text-align: center;
     text-decoration: none;
-    border: 2px solid #ffacde;
+    border: 2px solid #ffd1ed;
     border-radius: 8px;
     font-size: 16px;
     cursor: pointer;
@@ -469,7 +469,7 @@ body, html {
   }
 
   .writebutton:hover {
-    background-color: #ff4b99;
+    background-color: #ff4190;
   }
 
   .headerbar {
@@ -507,7 +507,7 @@ body, html {
 .links a {
   flex-grow: 1;
   text-align: center;
-  color: #ff28a6;
+  color: #ff4190;
   text-decoration: none;
   font-weight: bold;
   padding: 0.5rem 0; 
@@ -515,12 +515,12 @@ body, html {
 }
 
 a:link {
-  color: #ff28a6;
+  color: #ff4190;
   text-decoration: none;
 }
 
 a:link, a:visited, a:active {
-  color: #ff28a6;
+  color: #ff4190;
 }
 
 a:link, a:hover {
@@ -551,7 +551,7 @@ a:link, a:hover {
   top: 50%;
   transform: translateY(-50%);
   padding: 16px;
-  color: #ff28a6;
+  color: #ff4190;
   font-weight: bold;
   font-size: 100px;
   transition: background-color 0.3s ease;
