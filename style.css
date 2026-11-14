@@ -553,7 +553,7 @@ a:link, a:hover {
   padding: 16px;
   color: #ff4190;
   font-weight: bold;
-  font-size: 100px;
+  font-size: 80px;
   transition: background-color 0.3s ease;
   user-select: none;
   text-decoration: none;
@@ -603,8 +603,15 @@ a:link, a:hover {
 }
 
 @media screen and (max-width: 600px) {
+  .slideshow-container {
+    width: 100%;
+    max-width: 100%;
+  }
   .mySlides img {
-    height: 200px;
+    height: 250px;
+    width: 100%;
+    max-height: 35vh;
+    object-fit: contain;;
   }
 
   .prev, .next {
