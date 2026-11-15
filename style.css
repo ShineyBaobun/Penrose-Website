@@ -30,12 +30,6 @@ body, html {
     color: rgb(12, 12, 12);
     font-weight: 400;
    }
-   
-   .me {
-     font-size : 30px;
-     text-align: justify;
-     color: rgb(12, 12, 12)
-   }
 
    p {
     color:#5c5558;
@@ -44,7 +38,6 @@ body, html {
    li {
     color:#5c5558
    }
-   
    
    /* BANNER */
 
@@ -227,13 +220,13 @@ body, html {
    }
    
    .side-bar nav ul li a {
-     color: #3a001e;
+     color: #ffe5f6;
      text-decoration: none;
      font-size: 18px;
    }
    
    .side-bar nav ul li a:hover {
-     color: #ff80c1;
+     color: #a70845;
    }
    
   .home-images{
@@ -304,6 +297,16 @@ body, html {
 .verticalcontentcontainer:hover {
   box-shadow: 0 4px 10px rgba(160,160,160,0.8);
 }
+
+.verticalcontentcontainer nav ul li a {
+     color: #ff4190;
+     text-decoration: none;
+     font-size: 18px;
+   }
+   
+   .verticalcontentcontainer nav ul li a:hover {
+     color: #a70845;
+   }
 
 .widthboxes {
   justify-content: center;
